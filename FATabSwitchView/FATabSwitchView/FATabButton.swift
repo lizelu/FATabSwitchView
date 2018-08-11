@@ -29,6 +29,7 @@ class FATabButton: UIControl {
     private var selectTabTextImage: UIImage!
     private var normalTextColor: UIColor = UIColor.black
     private var selectTextColor: UIColor = UIColor.red
+    private var animationInterval: TimeInterval = 0.3
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -37,6 +38,10 @@ class FATabButton: UIControl {
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    public func setAnimationInterval(interval: TimeInterval) {
+        self.animationInterval = interval
     }
     
     public func setNormalTextColor(color: UIColor) {
@@ -72,7 +77,7 @@ class FATabButton: UIControl {
             self.updateTabImage(tabImage: self.normalTabTextImage, height: self.normalFontSize, bottom: -12)
         }
         if selected != self.isSelected {
-            UIView.animate(withDuration: 0.3) {
+            UIView.animate(withDuration: self.animationInterval) {
                 self.layoutIfNeeded()
             }
         }

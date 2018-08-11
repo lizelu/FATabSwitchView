@@ -24,6 +24,7 @@ class FATabSwitchView: UIView {
     private var selectFontSize: Float = 30
     private var normalTextColor: UIColor = UIColor.black
     private var selectTextColor: UIColor = UIColor.red
+    private var animationInterval: TimeInterval = 0.3
     
     //MARK: override method
     
@@ -57,10 +58,18 @@ class FATabSwitchView: UIView {
     
     //MARK: public config method
     
+    /// 设置动画时间
+    ///
+    /// - Parameter interval: 时间间隔
+    public func setAnimationInterval(interval: TimeInterval) {
+        self.animationInterval = interval
+        self.layoutSubviews()
+    }
+    
     /// 设置未选中状态下的颜色
     ///
     /// - Parameter color: 色值
-    func setNormalTextColor(color: UIColor) {
+    public func setNormalTextColor(color: UIColor) {
         self.normalTextColor = color
         self.layoutSubviews()
     }
@@ -68,7 +77,7 @@ class FATabSwitchView: UIView {
     /// 设置选中状态下的颜色
     ///
     /// - Parameter color
-    func setSelectTextColor(color: UIColor) {
+    public func setSelectTextColor(color: UIColor) {
         self.selectTextColor = color
         self.layoutSubviews()
     }
@@ -134,6 +143,7 @@ class FATabSwitchView: UIView {
             tab.setNormalFontFize(fontSize: self.normalFontSize)
             tab.setSelectTextColor(color: self.selectTextColor)
             tab.setNormalTextColor(color: self.normalTextColor)
+            tab.setAnimationInterval(interval: self.animationInterval)
             tab.tag = index;
             tab.setTitle(title: self.titleArray[index])
             tab.addTarget(self, action: #selector(self.tapButton(sender:)), for: .touchUpInside)
@@ -191,7 +201,7 @@ class FATabSwitchView: UIView {
         lastSelectButton.snp.updateConstraints { (make) in
             make.width.equalTo(lastSelectButton.title.size(font: UIFont.boldSystemFont(ofSize: CGFloat(self.normalFontSize))).width)
         }
-        UIView.animate(withDuration: 0.3) {
+        UIView.animate(withDuration: self.animationInterval) {
             self.layoutIfNeeded()
         }
         self.currentSelectIndex = index
