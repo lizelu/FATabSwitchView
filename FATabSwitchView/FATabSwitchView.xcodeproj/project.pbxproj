@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		867F95267882AE51B07F545C /* Pods_FATabSwitchView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CCBE3C3C27044C7EFB9F77 /* Pods_FATabSwitchView.framework */; };
+		F4DFF4B92100A6B5004F5E52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFF4B82100A6B5004F5E52 /* AppDelegate.swift */; };
+		F4DFF4BB2100A6B5004F5E52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFF4BA2100A6B5004F5E52 /* ViewController.swift */; };
+		F4DFF4BE2100A6B5004F5E52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF4BC2100A6B5004F5E52 /* Main.storyboard */; };
+		F4DFF4C02100A6B7004F5E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF4BF2100A6B7004F5E52 /* Assets.xcassets */; };
+		F4DFF4C32100A6B7004F5E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF4C12100A6B7004F5E52 /* LaunchScreen.storyboard */; };
+		F4DFF4CC2100A720004F5E52 /* FATabSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFF4CB2100A720004F5E52 /* FATabSwitchView.swift */; };
+		F4DFF4CE2100A85D004F5E52 /* FATabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFF4CD2100A85D004F5E52 /* FATabButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D2643116579815374D9658D /* Pods-FATabSwitchView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FATabSwitchView.release.xcconfig"; path = "Pods/Target Support Files/Pods-FATabSwitchView/Pods-FATabSwitchView.release.xcconfig"; sourceTree = "<group>"; };
+		61CCBE3C3C27044C7EFB9F77 /* Pods_FATabSwitchView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FATabSwitchView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04B80A84E41745C6C9FC6E1 /* Pods-FATabSwitchView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FATabSwitchView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FATabSwitchView/Pods-FATabSwitchView.debug.xcconfig"; sourceTree = "<group>"; };
+		F4DFF4B52100A6B5004F5E52 /* FATabSwitchView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FATabSwitchView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DFF4B82100A6B5004F5E52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4DFF4BA2100A6B5004F5E52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4DFF4BD2100A6B5004F5E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4DFF4BF2100A6B7004F5E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4DFF4C22100A6B7004F5E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4DFF4C42100A6B7004F5E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DFF4CB2100A720004F5E52 /* FATabSwitchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FATabSwitchView.swift; sourceTree = "<group>"; };
+		F4DFF4CD2100A85D004F5E52 /* FATabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FATabButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4DFF4B22100A6B5004F5E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867F95267882AE51B07F545C /* Pods_FATabSwitchView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02A3AEAA4BC93FBA07BA15B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61CCBE3C3C27044C7EFB9F77 /* Pods_FATabSwitchView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACD5F6153B3A5C9BE7E917FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B04B80A84E41745C6C9FC6E1 /* Pods-FATabSwitchView.debug.xcconfig */,
+				5D2643116579815374D9658D /* Pods-FATabSwitchView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4DFF4AC2100A6B5004F5E52 = {
+			isa = PBXGroup;
+			children = (
+				F4DFF4B72100A6B5004F5E52 /* FATabSwitchView */,
+				F4DFF4B62100A6B5004F5E52 /* Products */,
+				ACD5F6153B3A5C9BE7E917FB /* Pods */,
+				02A3AEAA4BC93FBA07BA15B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4DFF4B62100A6B5004F5E52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4DFF4B52100A6B5004F5E52 /* FATabSwitchView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4DFF4B72100A6B5004F5E52 /* FATabSwitchView */ = {
+			isa = PBXGroup;
+			children = (
+				F4DFF4CA2100A720004F5E52 /* FATabSwitchView */,
+				F4DFF4B82100A6B5004F5E52 /* AppDelegate.swift */,
+				F4DFF4BA2100A6B5004F5E52 /* ViewController.swift */,
+				F4DFF4BC2100A6B5004F5E52 /* Main.storyboard */,
+				F4DFF4BF2100A6B7004F5E52 /* Assets.xcassets */,
+				F4DFF4C12100A6B7004F5E52 /* LaunchScreen.storyboard */,
+				F4DFF4C42100A6B7004F5E52 /* Info.plist */,
+			);
+			path = FATabSwitchView;
+			sourceTree = "<group>";
+		};
+		F4DFF4CA2100A720004F5E52 /* FATabSwitchView */ = {
+			isa = PBXGroup;
+			children = (
+				F4DFF4CB2100A720004F5E52 /* FATabSwitchView.swift */,
+				F4DFF4CD2100A85D004F5E52 /* FATabButton.swift */,
+			);
+			path = FATabSwitchView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4DFF4B42100A6B5004F5E52 /* FATabSwitchView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DFF4C72100A6B7004F5E52 /* Build configuration list for PBXNativeTarget "FATabSwitchView" */;
+			buildPhases = (
+				F6D40F72761A33895B376656 /* [CP] Check Pods Manifest.lock */,
+				F4DFF4B12100A6B5004F5E52 /* Sources */,
+				F4DFF4B22100A6B5004F5E52 /* Frameworks */,
+				F4DFF4B32100A6B5004F5E52 /* Resources */,
+				AFF088A29791748F3C564380 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FATabSwitchView;
+			productName = FATabSwitchView;
+			productReference = F4DFF4B52100A6B5004F5E52 /* FATabSwitchView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4DFF4AD2100A6B5004F5E52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = ludashi;
+				TargetAttributes = {
+					F4DFF4B42100A6B5004F5E52 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = F4DFF4B02100A6B5004F5E52 /* Build configuration list for PBXProject "FATabSwitchView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4DFF4AC2100A6B5004F5E52;
+			productRefGroup = F4DFF4B62100A6B5004F5E52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4DFF4B42100A6B5004F5E52 /* FATabSwitchView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4DFF4B32100A6B5004F5E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DFF4C32100A6B7004F5E52 /* LaunchScreen.storyboard in Resources */,
+				F4DFF4C02100A6B7004F5E52 /* Assets.xcassets in Resources */,
+				F4DFF4BE2100A6B5004F5E52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AFF088A29791748F3C564380 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FATabSwitchView/Pods-FATabSwitchView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FATabSwitchView/Pods-FATabSwitchView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6D40F72761A33895B376656 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FATabSwitchView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4DFF4B12100A6B5004F5E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DFF4BB2100A6B5004F5E52 /* ViewController.swift in Sources */,
+				F4DFF4B92100A6B5004F5E52 /* AppDelegate.swift in Sources */,
+				F4DFF4CE2100A85D004F5E52 /* FATabButton.swift in Sources */,
+				F4DFF4CC2100A720004F5E52 /* FATabSwitchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4DFF4BC2100A6B5004F5E52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4DFF4BD2100A6B5004F5E52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4DFF4C12100A6B7004F5E52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4DFF4C22100A6B7004F5E52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4DFF4C52100A6B7004F5E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4DFF4C62100A6B7004F5E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4DFF4C82100A6B7004F5E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B04B80A84E41745C6C9FC6E1 /* Pods-FATabSwitchView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FATabSwitchView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ludashi.FATabSwitchView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4DFF4C92100A6B7004F5E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D2643116579815374D9658D /* Pods-FATabSwitchView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FATabSwitchView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ludashi.FATabSwitchView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4DFF4B02100A6B5004F5E52 /* Build configuration list for PBXProject "FATabSwitchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DFF4C52100A6B7004F5E52 /* Debug */,
+				F4DFF4C62100A6B7004F5E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DFF4C72100A6B7004F5E52 /* Build configuration list for PBXNativeTarget "FATabSwitchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DFF4C82100A6B7004F5E52 /* Debug */,
+				F4DFF4C92100A6B7004F5E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4DFF4AD2100A6B5004F5E52 /* Project object */;
+}
